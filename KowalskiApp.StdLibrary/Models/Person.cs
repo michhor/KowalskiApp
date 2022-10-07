@@ -6,7 +6,7 @@
         public string SecondName { get; set; }
         public override string ToString()
         {
-            return $"{FirstName}{SecondName}";
+            return $"{FirstName} {SecondName}";
         }
     }
 }
