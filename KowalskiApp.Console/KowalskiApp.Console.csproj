@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KowalskiApp.StdLibrary\KowalskiApp.StdLibrary.csproj">
+      <Project>{20f7d1e0-48e5-4bd9-8a53-8ffe3c7bdd9c}</Project>
+      <Name>KowalskiApp.StdLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
