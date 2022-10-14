@@ -11,9 +11,9 @@ using KowalskiApp.StdLibrary.Models;
 
 namespace KowalskiApp.DesktopApp
 {
-    public partial class Form1 : Form
+    public partial class FormApp : Form
     {
-        public Form1()
+        public FormApp()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace KowalskiApp.DesktopApp
 {
-    partial class Form1
+    partial class FormApp
     {
         /// <summary>
         /// Required designer variable.
@@ -52,14 +52,14 @@
             this.textBox1.Size = new System.Drawing.Size(250, 103);
             this.textBox1.TabIndex = 1;
             // 
-            // Form1
+            // FormApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(661, 360);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
+            this.Name = "FormApp";
             this.Text = "KowalskiApp";
             this.ResumeLayout(false);
             this.PerformLayout();
